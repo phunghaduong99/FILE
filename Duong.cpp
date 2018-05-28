@@ -1,6 +1,6 @@
 #include<conio.h>
 #include<stdio.h>
-#include<string.h>
+
 
 int main()
 {
@@ -32,5 +32,4 @@ int main()
 	in = fopen("FILE2.txt","w+");
 	fprintf(in, "%d", tong);
 return 0;
-
 }
